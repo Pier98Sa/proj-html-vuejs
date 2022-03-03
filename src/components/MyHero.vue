@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="hero">
         
     </div>
   
@@ -13,5 +13,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+    .hero{
+        height: 650px;
+        background-color: yellow;
+    }
 
 </style>

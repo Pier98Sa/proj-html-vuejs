@@ -13,4 +13,9 @@ export default {
 
 <style lang="scss" scoped>
 
+    main{
+        height: 1500px;
+        background-color: green;
+    }
+
 </style>
