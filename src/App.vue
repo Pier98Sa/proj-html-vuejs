@@ -29,7 +29,9 @@ export default {
   @import './style/general.scss';
   @import '~@fortawesome/fontawesome-free/css/all.css';
   @import './style/variables.scss';
-  
+  #app{
+    font-family: Arial, Helvetica, sans-serif;
+  }
   .ms_btn-green{
     background-color: $quinaryColorHeader;
     border-radius: 16px;
