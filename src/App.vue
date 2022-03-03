@@ -28,5 +28,19 @@ export default {
 <style lang="scss">
   @import './style/general.scss';
   @import '~@fortawesome/fontawesome-free/css/all.css';
+  @import './style/variables.scss';
+  
+  .ms_btn-green{
+    background-color: $quinaryColorHeader;
+    border-radius: 16px;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 8px 16px;
 
+    &:hover{
+      background-color: $senaryColorHeader;
+    }
+  }
 </style>
+ 

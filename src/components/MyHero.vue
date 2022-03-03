@@ -1,6 +1,6 @@
 <template>
     <div class="hero">
-        
+        <img class="img-fluid" src="../assets/homepage-hero-background.jpg" alt="">
     </div>
   
 </template>
@@ -15,8 +15,12 @@ export default {
 <style lang="scss" scoped>
 
     .hero{
-        height: 650px;
-        background-color: yellow;
+        padding-top: 20px;
+
+        img{
+            width: 100%;
+        }
+        
     }
 
 </style>
