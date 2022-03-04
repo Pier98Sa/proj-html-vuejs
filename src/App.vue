@@ -32,12 +32,13 @@ export default {
   #app{
     font-family: Arial, Helvetica, sans-serif;
   }
-
+  //rule for container
   .my_container{
     max-width: 980px;
     width: 100%;
     margin: 0 auto;
   }
+  //rule for green button
   .ms_btn-green{
     background-color: $quinaryColorHeader;
     border-radius: 16px;
@@ -50,5 +51,10 @@ export default {
       background-color: $senaryColorHeader;
     }
   }
+  //rule for offset
+  .ms_offset{
+        margin-top: -30px;
+        z-index: 998;
+    }
 </style>
  

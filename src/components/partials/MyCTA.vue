@@ -27,6 +27,7 @@ export default {
     .CTA{
         background-image: url(../../assets/horizontal-cta-background.jpg);
         background-repeat: no-repeat;
+        background-position:bottom;
         background-size: cover;
         color: $primaryColorCTA;
         

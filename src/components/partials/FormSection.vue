@@ -18,7 +18,7 @@
                     </div>
                     
                     <input type="email" placeholder="Email*">
-                    <input type="number" placeholder="Telephone">
+                    <input type="text" placeholder="Telephone">
                     <input type="text" placeholder="Location">
 
                     <div class="d-flex justify-content-center mt-2">
@@ -90,10 +90,6 @@ export default {
         color: $tertiaryColorForm;
     }
 
-    .ms_offset{
-        margin-top: -35px;
-        z-index: 998;
-    }
     .ms_fs-7{
         font-size: 14px;
     }
