@@ -1,5 +1,5 @@
 <template>
-    <section class="my_container ">
+    <section class="my_container mb-3">
         <div class="d-flex">
             <div class="text mt-5">
                 <h2 class="py-3 fw-bold">Get Behind The Wheel</h2>
@@ -49,9 +49,7 @@ export default {
         width: 50%;
 
         p{
-            color: $tertiaryColorForm;
-
-            
+            color: $tertiaryColorForm;   
         }
     }
 
@@ -94,7 +92,7 @@ export default {
 
     .ms_offset{
         margin-top: -35px;
-        z-index: 999;
+        z-index: 998;
     }
     .ms_fs-7{
         font-size: 14px;

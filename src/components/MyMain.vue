@@ -1,6 +1,7 @@
 <template>
     <main>
         <FormSection />
+        <MyCTA />
 
     </main>
 </template>
@@ -8,11 +9,13 @@
 
 <script>
 import FormSection from './partials/FormSection.vue'
+import MyCTA from './partials/MyCTA.vue'
 
 export default {
     name:'MyMain',
     components:{
-        FormSection
+        FormSection,
+        MyCTA
     }
 
 }
