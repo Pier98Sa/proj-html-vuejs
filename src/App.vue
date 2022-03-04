@@ -32,6 +32,12 @@ export default {
   #app{
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .my_container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+  }
   .ms_btn-green{
     background-color: $quinaryColorHeader;
     border-radius: 16px;

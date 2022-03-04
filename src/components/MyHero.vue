@@ -2,7 +2,7 @@
     <div class="hero">
         <img class="img-fluid" src="../assets/homepage-hero-background.jpg" alt="">
 
-        <div class="text-hero">
+        <div class="text-hero my_container">
             <h1>Drive with Avada</h1>
             <p>We offer the finest driving tuition money can buy</p>
         </div>
@@ -30,9 +30,17 @@ export default {
 
         .text-hero{
             position: absolute;
-            top: 55%;
-            left: 25%;
+            top: 50%;
+            left: 21%;
             color: $primaryColorHero;
+
+            h1{
+                font-size: 3.5em;
+            }
+
+            p{
+                font-size: 1.5em;
+            }
 
         }
         

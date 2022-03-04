@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="navbar-top">
-            <div class=" d-flex justify-content-between align-items-center container-md h-100 ms_fs">
+            <div class=" d-flex justify-content-between align-items-center my_container h-100 ms_fs">
                 
                 <span>We have a 95% Successful pass Rate!</span>
             
@@ -12,7 +12,7 @@
             
         </div>
         <div class="navbar-bottom ">
-           <div class="container-md d-flex justify-content-between align-items-center  h-100">
+           <div class="my_container d-flex justify-content-between align-items-center  h-100">
                
                <div class="nav-sx d-flex align-items-center ">
                     <a  href="#"><img class="ms_logo" src="../assets/avada-drivers-logo-2x-400x77.png" alt=""></a>

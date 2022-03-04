@@ -1,12 +1,19 @@
 <template>
     <main>
+        <FormSection />
 
     </main>
 </template>
 
+
 <script>
+import FormSection from './partials/FormSection.vue'
+
 export default {
     name:'MyMain',
+    components:{
+        FormSection
+    }
 
 }
 </script>
@@ -15,7 +22,6 @@ export default {
 
     main{
         height: 1500px;
-        background-color: green;
     }
 
 </style>
