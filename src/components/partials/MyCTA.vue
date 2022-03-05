@@ -1,13 +1,16 @@
 <template>
     <div class="CTA">
-        <div class="my_container d-flex justify-content-between align-items-center py-5">
-            <div >
-                <h2 class="fw-bold">Start Learning to Drive Today</h2>
-                <p>Give us a call to schedule your first driving lesson</p>
+        <div class="container-xl py-5">
+            <div class="row">
+                <div class="col-8">
+                    <h2 class="fw-bold fs-1">Start Learning to Drive Today</h2>
+                    <p class="fs-5">Give us a call to schedule your first driving lesson</p>
+                </div>
+                <div class="col-4">
+                    <span class="fs-3 text-end" ><i class="fa-solid fa-phone-flip me-3"></i>1-800-555-555</span>
+                </div>
             </div>
-            <div>
-                <span class="fs-3" ><i class="fa-solid fa-phone-flip me-3"></i>1-800-555-555</span>
-            </div>
+            
 
         </div>
         
