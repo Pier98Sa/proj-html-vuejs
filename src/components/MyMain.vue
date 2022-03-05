@@ -3,6 +3,7 @@
         <FormSection />
         <MyCTA />
         <MyCourses />
+        <MyStatistics />
 
     </main>
 </template>
@@ -12,13 +13,15 @@
 import FormSection from './partials/FormSection.vue'
 import MyCTA from './partials/MyCTA.vue'
 import MyCourses from './partials/MyCourses.vue'
+import MyStatistics from './partials/MyStatistics.vue'
 
 export default {
     name:'MyMain',
     components:{
         FormSection,
         MyCTA,
-        MyCourses
+        MyCourses,
+        MyStatistics
     }
 
 }

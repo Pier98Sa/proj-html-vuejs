@@ -24,7 +24,7 @@
                         <input type="text" placeholder="Location">
 
                         <div class="d-flex justify-content-center mt-2">
-                            <button type="submit" class="ms_btn-green text-white ">Request a Callback</button>
+                            <button type="submit" class="ms_btn ms_btn-green">Request a Callback</button>
                         </div>
                         
                     </div>

@@ -40,23 +40,46 @@ export default {
     width: 100%;
     margin: 0 auto;
   }
-  //rule for green button
-  .ms_btn-green{
-    background-color: $quinaryColorHeader;
+  //rule for button
+  .ms_btn{
     border-radius: 16px;
     border: none;
     font-size: 12px;
     text-transform: uppercase;
     padding: 8px 16px;
+    
+  }
+  //rule for green button
+  .ms_btn-green{
+    background-color: $primaryColorButton;
+    color: $tertiaryColorButton;
+    
 
     &:hover{
-      background-color: $senaryColorHeader;
+      background-color: $secondaryColorButton;
+    }
+  }
+
+  //rule for grey button
+  .ms_btn-grey{
+    color: $quaternaryColorButton;
+    border: 2px solid $quaternaryColorButton;
+    background-color: transparent;
+
+    &:hover{
+    color: $primaryColorButton;
+    border-color: $primaryColorButton;
     }
   }
   //rule for offset
   .ms_offset{
-        margin-top: -30px;
-        z-index: 998;
-    }
+    margin-top: -30px;
+    z-index: 998;
+  }
+
+  .ms_offset-2{
+    margin-top: -50px;
+    z-index: 998;
+  }
 </style>
  

@@ -1,7 +1,7 @@
 <template>
     <div class="CTA">
-        <div class="container-xl py-5">
-            <div class="row">
+        <div class="container-xl py-5 mt-5">
+            <div class="row align-items-center">
                 <div class="col-8">
                     <h2 class="fw-bold fs-1">Start Learning to Drive Today</h2>
                     <p class="fs-5">Give us a call to schedule your first driving lesson</p>
