@@ -70,6 +70,7 @@
 
             </div>
         </div>
+
     </div>
 </template>
 
@@ -117,5 +118,4 @@ export default {
     .ms_text-color{
         color: $secondaryColorCourses;
     }
-
 </style>

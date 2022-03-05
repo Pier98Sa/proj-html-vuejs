@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="navbar-top">
-            <div class=" d-flex justify-content-between align-items-center my_container h-100 ms_fs">
+            <div class=" d-flex justify-content-between align-items-center container-xl h-100 ms_fs">
                 
                 <span>We have a 95% Successful pass Rate!</span>
             
@@ -12,23 +12,23 @@
             
         </div>
         <div class="navbar-bottom ">
-           <div class="my_container d-flex justify-content-between align-items-center  h-100">
-               
-               <div class="nav-sx d-flex align-items-center ">
-                    <a  href="#"><img class="ms_logo" src="../assets/avada-drivers-logo-2x-400x77.png" alt=""></a>
-               </div>
+           <div class="container-xl d-flex justify-content-between align-items-center  h-100">
+               <div class="row w-100">
+                   <div class="col-4">
+                        <a  href="#"><img class="ms_logo" src="../assets/avada-drivers-logo-2x-400x77.png" alt=""></a>
+                   </div>
 
-               <div class="nav-dx d-flex justify-content-around align-items-center ">
-                   <ul>
-                        <!--Popolamento dinamico delle voci del menu-->
-                        <li v-for="(link,index) in links" :key="index" class="px-3">
-                            <a :href="link.url"  @click="menuActive(index)" :class="(index == active) ? 'active':''">{{link.text}}</a>
-                        </li>
-
-                        <li class="px-3">
-                            <button class="text-white ms_btn-green">Book Now</button>
-                        </li>
-                    </ul>
+                   <div class="col-8 ">
+                       <ul class="d-flex justify-content-around align-items-center">
+                            <!--Popolamento dinamico delle voci del menu-->
+                            <li v-for="(link,index) in links" :key="index" class="px-3">
+                                <a :href="link.url"  @click="menuActive(index)" :class="(index == active) ? 'active':''">{{link.text}}</a>
+                            </li>
+                            <li class="px-3">
+                                    <button class="text-white ms_btn-green">Book Now</button>
+                            </li>
+                        </ul>
+                   </div>
                </div>
 
            </div>
@@ -102,7 +102,7 @@ export default {
         color: $quaternaryColorHeader;
 
         .ms_fs{
-            font-size: 12px;
+            font-size: 14px;
         }
     }
     .navbar-bottom{
@@ -121,7 +121,7 @@ export default {
                 padding-bottom:5px ;
                 text-decoration: none;
                 text-transform: uppercase;
-                font-size: 12px;
+                font-size: 14px;
                 color: $tertiaryColorHeader;
                 
 
