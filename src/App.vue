@@ -81,5 +81,9 @@ export default {
     margin-top: -50px;
     z-index: 998;
   }
+
+  .ms_offset-3{
+    margin-top: -1px;
+  }
 </style>
  
