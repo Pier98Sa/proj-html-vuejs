@@ -54,7 +54,6 @@ export default {
     background-color: $primaryColorButton;
     color: $tertiaryColorButton;
     
-
     &:hover{
       background-color: $secondaryColorButton;
     }
@@ -84,6 +83,9 @@ export default {
 
   .ms_offset-3{
     margin-top: -1px;
+  }
+  .ms_offset-4{
+    margin-top: -120px;
   }
 </style>
  
