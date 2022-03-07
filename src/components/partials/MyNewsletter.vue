@@ -2,7 +2,7 @@
   <div class="newsletter">
       <div class="container-xl">
           <div class="row">
-              <div class="col-5 offset-4 d-flex flex-column align-items-center">
+              <div class="col-6 offset-3 d-flex flex-column align-items-center">
                 <h2 class="py-5 fs-2">Sign up to our Newsletter</h2>
 
                 <input type="text" class="w-100">
