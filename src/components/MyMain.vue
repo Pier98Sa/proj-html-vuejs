@@ -8,7 +8,6 @@
         <MyInstructors />
         <MyTestimonials />
         <LatestNews />
-
     </main>
 </template>
 
@@ -41,8 +40,5 @@ export default {
 
 <style lang="scss" scoped>
 
-    main{
-        height: 1500px;
-    }
 
 </style>

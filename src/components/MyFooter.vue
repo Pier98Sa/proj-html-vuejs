@@ -1,11 +1,31 @@
 <template>
     <footer>
+        <MyNewsletter />
+
         <div class="footer-top">
 
         </div>
 
         <div class="footer-bottom">
+            <div class="container-xl py-5">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-10 d-flex align-item-center">
+                        <div>
+                            <p>© Copyright 2012 - 2022 | Avada Theme by <span>ThemeFusion</span>  | All Rights Reserved | Powered by <span>WordPress</span> </p>
+                        </div> 
+                    </div>
 
+                    <div class="col-2 d-flex align-item-center">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
         
     </footer>
@@ -13,24 +33,37 @@
 </template>
 
 <script>
+import MyNewsletter from './partials/MyNewsletter.vue'
+
 export default {
     name:'MyFooter',
+    components:{
+       MyNewsletter,
+    }
 
 }
 </script>
 
 <style lang="scss" scoped>
-    footer{
-        margin-top: 5200px;
-    }
-    .footer-top{
-        height: 550px;
-        background-color: violet;
-    }
+@import "../style/variables.scss";
 
     .footer-bottom{
-        height: 150px;
-        background-color: purple;
-    }
+        background-color: $primaryColorFooterBottom;
+        p{
+            color: $tertiaryColorFooterBottom;
+            font-size: 12px;
+            margin:0px;
 
+            span{
+                color: $secondaryColorFooterBottom;
+            }
+        }
+
+        a{
+            color: $quaternaryColorFooterBottom;
+            padding: 0 10px 0 10px;
+            font-size: 12px;
+            margin:0px;
+        }
+    }
 </style>

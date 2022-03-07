@@ -34,12 +34,7 @@ export default {
   #app{
     font-family: 'Mulish', sans-serif;
   }
-  //rule for container
-  .my_container{
-    max-width: 980px;
-    width: 100%;
-    margin: 0 auto;
-  }
+
   //rule for button
   .ms_btn{
     border-radius: 16px;
