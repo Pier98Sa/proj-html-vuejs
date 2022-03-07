@@ -71,7 +71,6 @@ export default {
 
     .Testimonials{
         background-image: url(../../assets/testimonial-background.jpg);
-        background-color: white;
         background-repeat: no-repeat;
         background-size: cover;
         background-position:bottom;

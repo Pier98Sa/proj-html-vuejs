@@ -7,6 +7,7 @@
         <MyStatistics />
         <MyInstructors />
         <MyTestimonials />
+        <LatestNews />
 
     </main>
 </template>
@@ -20,6 +21,7 @@ import MySeparator from './partials/MySeparator.vue'
 import MyStatistics from './partials/MyStatistics.vue'
 import MyInstructors from './partials/MyInstructors.vue'
 import MyTestimonials from './partials/MyTestimonials.vue'
+import LatestNews from './partials/LatestNews.vue'
 
 export default {
     name:'MyMain',
@@ -30,7 +32,8 @@ export default {
         MySeparator,
         MyStatistics,
         MyInstructors,
-        MyTestimonials
+        MyTestimonials,
+        LatestNews
     }
 
 }
