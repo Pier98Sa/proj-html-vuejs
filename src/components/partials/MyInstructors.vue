@@ -12,9 +12,9 @@
           </div>
       </div>
 
-      <div class="row">
+      <div class="row mt-5">
           <div class="col-4">
-              <div class="box d-flex flex-column align-items-center">
+              <div class="box d-flex flex-column align-items-center ms_offset-5 ">
                     <div class="img-box p-5">
                         <img src="../../assets/instructor-mikehart.jpg" alt="Mike Hart">
                     </div>
@@ -35,7 +35,7 @@
           </div>
 
           <div class="col-4">
-              <div class="box d-flex flex-column align-items-center">
+              <div class="box d-flex flex-column align-items-center ms_offset-5">
                   <div class="img-box p-5">
                         <img src="../../assets/instructor-johnsmith.jpg" alt="Mike Hart">
                     </div>
@@ -51,12 +51,11 @@
                     <div class="description p-4 text-center">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-
               </div>
           </div>
 
           <div class="col-4">
-              <div class="box d-flex flex-column align-items-center">
+              <div class="box d-flex flex-column align-items-center ms_offset-5">
                   <div class="img-box p-5">
                         <img src="../../assets/instructor-angelahart.jpg" alt="Mike Hart">
                     </div>
@@ -92,15 +91,17 @@ export default {
 @import "../../style/variables.scss";
     .Instructors{
         background-color: $secondaryColorInstr;
-
+        
         .my_p-color{
             color:$primaryColorInstr;
         }
 
         .box{
             border-top: 4px solid $tertiaryColorInstr;
+            background-color: $secondaryColorInstr;
             border-radius: 12px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 20px $primaryColorInstr;
+            
 
             .img-box{
 

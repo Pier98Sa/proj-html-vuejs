@@ -87,5 +87,10 @@ export default {
   .ms_offset-4{
     margin-top: -120px;
   }
+
+  .ms_offset-5{
+    margin-bottom: -70px;
+    z-index: 998;
+  }
 </style>
  
