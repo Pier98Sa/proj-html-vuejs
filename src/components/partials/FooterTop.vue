@@ -2,6 +2,7 @@
   <div class="footer-top">
       <div class="container-xl">
           <div class="row py-5 align-items-center">
+              <!--Box logo-->
               <div class="col-3">
                   <div class="box-logo p-4">
                       <img src="../../assets/avada-drivers-logo-2x-400x77.png" alt="">
@@ -10,6 +11,7 @@
 
               </div>
 
+             <!--Lista contatti-->
               <div class="col-3">   
                 <div class="contacts p-4">
                     <h2>Contact details</h2>
@@ -22,6 +24,7 @@
                 </div>
               </div>
 
+             <!--Sezione courses-->
               <div class="col-3">
                   <div class="courses p-4">
                     <h2>Courses</h2>
@@ -35,9 +38,10 @@
 
               </div>
 
+                <!--Sezione acquisto-->
               <div class="col-3">
                   <div class="ads p-4">
-                    <img  src="../../assets/ad.png"  alt=""> <!--Immagine non funzionante-->
+                    <img  src="../../assets/ad.png"  alt=""> <!--Immagine bloccata-->
                     <button class="ms_btn ms_btn-green">Book Now</button>
                   </div>
                   
@@ -61,6 +65,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../style/variables.scss";
+
     .footer-top{
         background-image: url(../../assets/footer-background-color.jpg);
         background-repeat: no-repeat;

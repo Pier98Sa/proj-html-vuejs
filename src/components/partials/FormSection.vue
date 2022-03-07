@@ -2,12 +2,14 @@
     <section class="container-xl mb-3">
         <div class="row">
 
+            <!--Description-->
             <div class="col-6 text pt-5">
                 <h2 class="py-3 fw-bold ">Get Behind The Wheel</h2>
                 <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. </p>
                 <p class="ms_fs-7" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.</p>
             </div>
 
+            <!--Form-->
             <div class="col-6 ms_offset px-5">
                 <form >
                     <div class="p-5">

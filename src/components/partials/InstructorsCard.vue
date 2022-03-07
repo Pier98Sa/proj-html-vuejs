@@ -1,17 +1,22 @@
 <template>
   <div class="box d-flex flex-column align-items-center ms_offset-5 ">
+
+      <!--img-->
         <div class="img-box p-5">
             <img :src="require('../../assets/instructor' + (instructor.photo))" :alt="instructor.name">
         </div>
 
+        <!--Name-->
         <h3>{{instructor.name}}</h3>
 
+        <!--social-->
         <div class="social-box pt-2">
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-twitter px-4"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
         
+        <!--description-->
         <div class="description p-4 text-center">
             <p>{{instructor.description}}</p>
         </div>
