@@ -1,9 +1,13 @@
 <template>
     <footer>
+        
         <MyNewsletter />
         <FooterTop />
         
         <div class="footer-bottom">
+            <div class="ToTop d-flex align-items-center justify-content-center">
+                <a class="text-white" href="#hero"><i class="fa-solid fa-chevron-up"></i> </a>
+            </div>
             
             <div class="container-xl py-5">
                 <div class="row align-items-center justify-content-center">
@@ -49,6 +53,15 @@ export default {
 
     .footer-bottom{
         background-color: $primaryColorFooterBottom;
+        .ToTop{
+            position: fixed;
+            bottom: 0;
+            right: 30px;
+            height: 35px;
+            width: 50px;
+            background-color: $primaryColorFooterBottom;
+            font-size: 25px; 
+        }
         p{
             color: $tertiaryColorFooterBottom;
             font-size: 12px;

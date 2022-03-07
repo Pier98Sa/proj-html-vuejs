@@ -21,8 +21,13 @@
                    <div class="col-8 ">
                        <ul class="d-flex justify-content-around align-items-center">
                             <!--Popolamento dinamico delle voci del menu-->
-                            <li v-for="(link,index) in links" :key="index" class="px-3">
-                                <a :href="link.url"  @click="menuActive(index)" :class="(index == active) ? 'active':''">{{link.text}}</a>
+                            <li v-for="(link,index) in links" :key="index" class="px-4 d-flex align-items-center justify-content-center">
+                                <a :href="link.url"  
+                                    @click="menuActive(index)" 
+                                    :class="(index == active) ? 'active':''">
+                                    {{link.text}} 
+                                </a>
+                                <span v-show="link.new" class="new">New</span>
                             </li>
                             <li class="px-3">
                                 <button class="ms_btn ms_btn-green">Book Now</button>
@@ -55,27 +60,33 @@ export default {
         links: [
                 {
                     text: "Home",
-                    url: "#"
+                    url: "#",
+                    new: false
                 },
                 {
                     text: "About",
-                    url: "#"
+                    url: "#",
+                    new: false
                 },
                 {
                     text: "Prices",
-                    url: "#"
+                    url: "#",
+                    new: false
                 },
                 {
                     text: "Courses",
-                    url: "#"
+                    url: "#",
+                    new: true
                 },
                 {
                     text: "Locations",
-                    url: "#"
+                    url: "#",
+                    new: false
                 },
                 {
                     text: "Blog",
-                    url: "#"
+                    url: "#",
+                    new: false
                 }
             ],
         }
@@ -131,6 +142,16 @@ export default {
                 border-bottom: 2px solid $quinaryColorHeader;
                 }
             
+            }
+
+            .new{
+                text-transform: uppercase;
+                font-size: 8px;
+                background-color: $quinaryColorHeader; 
+                padding: 2px 5px;
+                border-radius: 6px;
+                margin-left: 5px;
+                margin-top: -6px;
             }
         }
     }

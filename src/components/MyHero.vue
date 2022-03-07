@@ -1,5 +1,5 @@
 <template>
-    <div class="hero d-flex justify-content-center">
+    <div id="hero" class=" d-flex justify-content-center">
         <img src="../assets/homepage-hero-background.jpg" alt="">
 
         <div class="text-hero container-xl">
@@ -20,7 +20,7 @@ export default {
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 
-    .hero{
+    #hero{
         padding-top: 20px;
         position: relative;
         img{

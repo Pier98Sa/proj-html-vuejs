@@ -20,7 +20,7 @@ export default {
     MyHeader,
     MyHero,
     MyMain,
-    MyFooter
+    MyFooter,
   }
 }
 </script>
