@@ -13,67 +13,10 @@
       </div>
 
       <div class="row mt-5">
-          <div class="col-4">
-              <div class="box d-flex flex-column align-items-center ms_offset-5 ">
-                    <div class="img-box p-5">
-                        <img src="../../assets/instructor-mikehart.jpg" alt="Mike Hart">
-                    </div>
-
-                    <h3>Mike Hart</h3>
-
-                    <div class="social-box pt-2">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter px-4"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    
-                    <div class="description p-4 text-center">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-
-              </div>
+          <div class="col-4" v-for="(instructor,index) in instructors" :key="index">
+              <InstructorsCard :instructor='instructor'/> 
           </div>
 
-          <div class="col-4">
-              <div class="box d-flex flex-column align-items-center ms_offset-5">
-                  <div class="img-box p-5">
-                        <img src="../../assets/instructor-johnsmith.jpg" alt="Mike Hart">
-                    </div>
-
-                    <h3>John Smith</h3>
-
-                    <div class="social-box pt-2">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter px-4"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    
-                    <div class="description p-4 text-center">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-              </div>
-          </div>
-
-          <div class="col-4">
-              <div class="box d-flex flex-column align-items-center ms_offset-5">
-                  <div class="img-box p-5">
-                        <img src="../../assets/instructor-angelahart.jpg" alt="Mike Hart">
-                    </div>
-
-                    <h3>Angela Hart</h3>
-
-                    <div class="social-box pt-2">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter px-4"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    
-                    <div class="description p-4 text-center">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-
-              </div>
-          </div>
 
       </div>
   </div>
@@ -82,8 +25,33 @@
 </template>
 
 <script>
+import InstructorsCard from './InstructorsCard.vue'
 export default {
     name: 'MyInstructors',
+    components:{
+        InstructorsCard
+    },
+    data(){
+        return{
+            instructors: [
+                {
+                    name: 'Mike Hart',
+                    photo: '-mikehart.jpg',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                },
+                {
+                    name: 'John Smith',
+                    photo: '-johnsmith.jpg',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                },
+                {
+                    name: 'Angela Hart',
+                    photo: '-angelahart.jpg',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                }
+            ]
+        }
+    }
 }
 </script>
 
@@ -96,38 +64,7 @@ export default {
             color:$primaryColorInstr;
         }
 
-        .box{
-            border-top: 4px solid $tertiaryColorInstr;
-            background-color: $secondaryColorInstr;
-            border-radius: 12px;
-            box-shadow: 0px 0px 20px $primaryColorInstr;
-            
-
-            .img-box{
-
-                img{
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-
-                    &:hover{
-                        transform: scale(1.1,1.1);
-                        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-                    }
-                }
-
-            }
-
-            .social-box{
-                a{
-                    color: $primaryColorInstr;
-                }
-            }
-
-            .description{
-                color: $primaryColorInstr;
-            }
-        }
+        
     }
 
 </style>
