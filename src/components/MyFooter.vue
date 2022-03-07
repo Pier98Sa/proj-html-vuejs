@@ -20,7 +20,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    footer{
+        margin-top: 1200px;
+    }
     .footer-top{
         height: 550px;
         background-color: violet;
