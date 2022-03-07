@@ -4,6 +4,8 @@
       <div class="row">
         <div class="col-4 ">
           <div class="box d-flex flex-column align-items-center p-5">
+
+            <!--Statistics 1-->
             <div id="circle-loader-wrap">
 
               <div class="center d-flex justify-content-center align-items-center">
@@ -30,6 +32,8 @@
 
         <div class="col-4">
           <div class="box d-flex flex-column align-items-center p-5">
+
+            <!--Statistics 2-->
             <div id="circle-loader-wrap">
               
               <div class="center d-flex justify-content-center align-items-center">
@@ -55,6 +59,7 @@
 
         <div class="col-4">
           <div class="box d-flex flex-column align-items-center p-5">
+            <!--Statistics 3-->
              <div id="circle-loader-wrap">
               <div class="center d-flex justify-content-center align-items-center">
                 <span class="fs-1">0%</span>

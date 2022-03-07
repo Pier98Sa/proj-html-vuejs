@@ -14,10 +14,9 @@
 
       <div class="row mt-5">
           <div class="col-4" v-for="(instructor,index) in instructors" :key="index">
+              <!--card instruttore-->
               <InstructorsCard :instructor='instructor'/> 
           </div>
-
-
       </div>
   </div>
 </div>

@@ -8,16 +8,20 @@
                         <p class="fs-4">Here’s what our happy drivers had to say about our services:</p>
                     </div>
 
+                    <!--photo-->
                     <div class="photo-box py-4">
                         <img src="../../assets/testimonial-sophia.png" alt="">
                     </div>
  
+                    <!--description-->
                     <div class="description text-center fs-5">
                         <p>Avada Driving School really helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Highly recommended.</p>
                     </div>
 
+                    <!--name-->
                     <h2 class="fs-5 name">Sophia Jones</h2>
 
+                    <!--circle-->
                     <div class="circle-box py-3">
                         <div class="circle active"></div>
                         <div class="circle"></div>

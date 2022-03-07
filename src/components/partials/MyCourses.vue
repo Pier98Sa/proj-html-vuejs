@@ -2,6 +2,7 @@
   <div class="course">
       <div class="container-xl pb-5">
             <div class="row align-items-center">
+                <!--Information-->
                 <div class="col-4">
                     <div class="box text-center position-relative ms_offset-2">
                         <div class="px-3">
@@ -18,6 +19,8 @@
 
                 </div>
 
+
+                <!--Courses-->
                 <div class="col-8">
                     <div class="row ">
                         <div class="col-4 ">
