@@ -53,27 +53,8 @@
 <script>
 export default {
     name: 'FooterTop',
-    data(){
-        return{
-            courses:[
-                {
-                    name: 'Pass Plus',
-                    link: '#'
-                },
-                {
-                    name: 'Intensive Course',
-                    link: '#'
-                },
-                {
-                    name: 'Automatic',
-                    link: '#'
-                },
-                {
-                    name: 'Instructor Training',
-                    link: '#'
-                }
-            ]
-        }
+    props: {
+        courses : Array
     }
 }
 </script>

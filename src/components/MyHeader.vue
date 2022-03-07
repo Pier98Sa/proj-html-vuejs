@@ -54,41 +54,13 @@ export default {
             this.active = index;
         }
     },
+    props:{
+        links: Array
+    },
     data() {
         return {
         active: 0,
-        links: [
-                {
-                    text: "Home",
-                    url: "#",
-                    new: false
-                },
-                {
-                    text: "About",
-                    url: "#",
-                    new: false
-                },
-                {
-                    text: "Prices",
-                    url: "#",
-                    new: false
-                },
-                {
-                    text: "Courses",
-                    url: "#",
-                    new: true
-                },
-                {
-                    text: "Locations",
-                    url: "#",
-                    new: false
-                },
-                {
-                    text: "Blog",
-                    url: "#",
-                    new: false
-                }
-            ],
+       
         }
     }
 

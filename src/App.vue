@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <MyHeader/>
-    <MyHero/>
+    <MyHeader :links="links" />
+    <MyHero />
     <MyMain/>
-    <MyFooter/>
+    <MyFooter :courses="courses"/>
     
   </div>
 </template>
@@ -21,6 +21,61 @@ export default {
     MyHero,
     MyMain,
     MyFooter,
+  },
+  data(){
+    return{
+      links: [
+        {
+            text: "Home",
+            url: "#",
+            new: false
+        },
+        {
+            text: "About",
+            url: "#",
+            new: false
+        },
+        {
+            text: "Prices",
+            url: "#",
+            new: false
+        },
+        {
+            text: "Courses",
+            url: "#",
+            new: true
+        },
+        {
+            text: "Locations",
+            url: "#",
+            new: false
+        },
+        {
+            text: "Blog",
+            url: "#",
+            new: false
+        }
+      ],
+      courses:[
+                {
+                    name: 'Pass Plus',
+                    link: '#'
+                },
+                {
+                    name: 'Intensive Course',
+                    link: '#'
+                },
+                {
+                    name: 'Automatic',
+                    link: '#'
+                },
+                {
+                    name: 'Instructor Training',
+                    link: '#'
+                }
+            ]
+
+    }
   }
 }
 </script>

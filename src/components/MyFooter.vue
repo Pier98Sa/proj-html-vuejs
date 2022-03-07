@@ -2,7 +2,7 @@
     <footer>
         
         <MyNewsletter />
-        <FooterTop />
+        <FooterTop :courses="courses" />
         
         <div class="footer-bottom">
             <div class="ToTop d-flex align-items-center justify-content-center">
@@ -43,6 +43,9 @@ export default {
     components:{
        MyNewsletter,
        FooterTop
+    },
+    props: {
+        courses : Array
     }
 
 }
