@@ -2,7 +2,7 @@
   <div id="app">
     <MyHeader :links="links" />
     <MyHero />
-    <MyMain/>
+    <MyMain :instructors="instructors" />
     <MyFooter :courses="courses"/>
     
   </div>
@@ -73,7 +73,24 @@ export default {
             name: 'Instructor Training',
             link: '#'
         }
-      ]
+      ],
+      instructors: [
+                {
+                    name: 'Mike Hart',
+                    photo: '-mikehart.jpg',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                },
+                {
+                    name: 'John Smith',
+                    photo: '-johnsmith.jpg',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                },
+                {
+                    name: 'Angela Hart',
+                    photo: '-angelahart.jpg',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                }
+            ]
 
     }
   }

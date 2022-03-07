@@ -5,7 +5,7 @@
         <MyCourses />
         <MySeparator />
         <MyStatistics />
-        <MyInstructors />
+        <MyInstructors :instructors="instructors" />
         <MyTestimonials />
         <LatestNews />
     </main>
@@ -33,6 +33,9 @@ export default {
         MyInstructors,
         MyTestimonials,
         LatestNews
+    },
+    props:{
+        instructors: Array
     }
 
 }

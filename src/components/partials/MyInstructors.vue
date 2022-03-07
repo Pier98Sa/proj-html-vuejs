@@ -31,26 +31,8 @@ export default {
     components:{
         InstructorsCard
     },
-    data(){
-        return{
-            instructors: [
-                {
-                    name: 'Mike Hart',
-                    photo: '-mikehart.jpg',
-                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                },
-                {
-                    name: 'John Smith',
-                    photo: '-johnsmith.jpg',
-                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                },
-                {
-                    name: 'Angela Hart',
-                    photo: '-angelahart.jpg',
-                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                }
-            ]
-        }
+    props:{
+        instructors: Array
     }
 }
 </script>
