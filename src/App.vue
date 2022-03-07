@@ -57,23 +57,23 @@ export default {
         }
       ],
       courses:[
-                {
-                    name: 'Pass Plus',
-                    link: '#'
-                },
-                {
-                    name: 'Intensive Course',
-                    link: '#'
-                },
-                {
-                    name: 'Automatic',
-                    link: '#'
-                },
-                {
-                    name: 'Instructor Training',
-                    link: '#'
-                }
-            ]
+        {
+            name: 'Pass Plus',
+            link: '#'
+        },
+        {
+            name: 'Intensive Course',
+            link: '#'
+        },
+        {
+            name: 'Automatic',
+            link: '#'
+        },
+        {
+            name: 'Instructor Training',
+            link: '#'
+        }
+      ]
 
     }
   }
