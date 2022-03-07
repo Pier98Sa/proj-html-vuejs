@@ -1,11 +1,8 @@
 <template>
     <footer>
         <MyNewsletter />
-
-        <div class="footer-top">
-
-        </div>
-
+        <FooterTop />
+        
         <div class="footer-bottom">
             <div class="container-xl py-5">
                 <div class="row align-items-center justify-content-center">
@@ -34,11 +31,13 @@
 
 <script>
 import MyNewsletter from './partials/MyNewsletter.vue'
+import FooterTop from './partials/FooterTop.vue'
 
 export default {
     name:'MyFooter',
     components:{
        MyNewsletter,
+       FooterTop
     }
 
 }

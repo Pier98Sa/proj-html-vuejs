@@ -25,7 +25,7 @@
                                 <a :href="link.url"  @click="menuActive(index)" :class="(index == active) ? 'active':''">{{link.text}}</a>
                             </li>
                             <li class="px-3">
-                                    <button class="ms_btn ms_btn-green">Book Now</button>
+                                <button class="ms_btn ms_btn-green">Book Now</button>
                             </li>
                         </ul>
                    </div>
